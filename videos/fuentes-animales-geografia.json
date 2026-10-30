@@ -1,0 +1,113 @@
+{
+  "created_for": "5 animales fascinantes de 5 países — versión geográfica vertical",
+  "sources": [
+    {
+      "file": "blue-marble.jpg",
+      "source_url": "https://pypi.org/project/basemap-data/2.0.0/",
+      "repository_url": "https://github.com/matplotlib/basemap",
+      "original_file": "mpl_toolkits/basemap_data/bmng.jpg",
+      "author": "Blue Marble raster distributed by Jeffrey Whitaker and the Matplotlib development team",
+      "license": "MIT, according to basemap_data 2.0.0 METADATA for all files other than GSHHG boundary/mask datasets and EPSG",
+      "license_evidence_files": [
+        "basemap-METADATA",
+        "basemap-LICENSE.mit"
+      ],
+      "sha256": "10f5389b365d7ece89f68a73ce5653fb5692145fde181fc64596d0d87cb89bb8",
+      "dimensions": [
+        5400,
+        2700
+      ],
+      "notes": "Extracted without pixel changes from the official basemap_data==2.0.0 PyPI wheel. Used as the photographic Earth base texture; combined with Natural Earth physical relief and color grading. The package-wide LGPL metadata refers to GSHHG layers, which are not used here."
+    },
+    {
+      "file": "world.jpg",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-raster/master/50m_rasters/NE1_50M_LC_SR_W/NE1_50M_LC_SR_W.tif",
+      "author": "Natural Earth; Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license": "Public domain",
+      "sha256": "9e8a6357420c26dcfd2bb9f2374a0299bba04cdc1650cb5de842bbb3202f4498",
+      "notes": "Natural Earth I raster with shaded relief and water, scale 1:50m, 10800x5400. Equirectangular EPSG:4326 extent [-180,-90,180,90]. Converted from original GeoTIFF to JPEG quality95 without chroma subsampling. This is a physical/cartographic raster based on land cover and relief, not a newly captured satellite photograph."
+    },
+    {
+      "file": "countries-10m.geojson",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson",
+      "author": "Natural Earth / NACIS and contributors",
+      "license": "Public domain",
+      "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+      "notes": "Scale 1:10m admin-0 country polygons. Repository README explicitly states public-domain data. Countries selected by ADMIN property. All island geometry retained in countries-selected.json."
+    },
+    {
+      "file": "LilitaOne-Regular.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/LilitaOne-Regular.ttf",
+      "author": "Juan Montoreano; Google Fonts distribution",
+      "license": "SIL Open Font License 1.1",
+      "sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59",
+      "notes": "Full license in LilitaOne-OFL.txt."
+    },
+    {
+      "file": "flag-mx.svg",
+      "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mx.svg",
+      "author": "Panayiotis Lipiridis and flag-icons contributors",
+      "license": "MIT",
+      "sha256": "9dbc8ad8b35e52ce7cb686d5cd93bd95e4c0dd8505c184186a740148ffd34901",
+      "notes": "Full license in flag-icons-LICENSE.txt; SVG national flag, emblem retained where present."
+    },
+    {
+      "file": "flag-au.svg",
+      "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/au.svg",
+      "author": "Panayiotis Lipiridis and flag-icons contributors",
+      "license": "MIT",
+      "sha256": "cbb2206c5e59a25d79228306af973666a191e163f0ae337681f447977e6edb18",
+      "notes": "Full license in flag-icons-LICENSE.txt; SVG national flag, emblem retained where present."
+    },
+    {
+      "file": "flag-id.svg",
+      "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/id.svg",
+      "author": "Panayiotis Lipiridis and flag-icons contributors",
+      "license": "MIT",
+      "sha256": "5cd3acc4939dd7eae6318c8d75df8c0d1733f650e2504a2635b0dbf3dfabb040",
+      "notes": "Full license in flag-icons-LICENSE.txt; SVG national flag, emblem retained where present."
+    },
+    {
+      "file": "flag-mg.svg",
+      "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/mg.svg",
+      "author": "Panayiotis Lipiridis and flag-icons contributors",
+      "license": "MIT",
+      "sha256": "59246c21300e2456c0c5170791698e43399b089de80a69474deeac00697d2b7b",
+      "notes": "Full license in flag-icons-LICENSE.txt; SVG national flag, emblem retained where present."
+    },
+    {
+      "file": "flag-cr.svg",
+      "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/cr.svg",
+      "author": "Panayiotis Lipiridis and flag-icons contributors",
+      "license": "MIT",
+      "sha256": "4775ef01d28b8a887cde3dbe2826466ed77c87aae4d00517c99d4977afdbdc20",
+      "notes": "Full license in flag-icons-LICENSE.txt; SVG national flag, emblem retained where present."
+    }
+  ],
+  "derivatives": [
+    {
+      "file": "countries-selected.json",
+      "based_on": "countries-10m.geojson",
+      "notes": "All mainland and offshore islands retained; camera may need nested inset for remote islands."
+    }
+  ],
+  "reference_material": [
+    {
+      "file": "user-provided reference MP4",
+      "source": "Uploaded by user",
+      "use": "Visual style reference only. Its sound and imagery are not reused."
+    },
+    {
+      "file": "original animal drawings",
+      "source": "Created in this conversation",
+      "use": "Original stylized animal illustrations, not documentary photographs."
+    }
+  ],
+  "excluded_assets": [
+    {
+      "file": "world-fallback.jpg",
+      "source_url": "https://raw.githubusercontent.com/turban/webgl-earth/master/images/2_no_clouds_4k.jpg",
+      "reason": "Repository README does not establish image authorship or license; NASA attribution unverified. Do not use in final exported work as a licensed documentary texture."
+    }
+  ]
+}
